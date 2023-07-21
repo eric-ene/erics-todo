@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+ng g c $1 --standalone --skip-tests

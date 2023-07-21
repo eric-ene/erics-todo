@@ -1,0 +1,22 @@
+@import "src/imports.scss";
+
+* {
+    background: $surface0;
+}
+
+.nav {
+    padding-top: 6px;;
+
+    transition: 120ms;
+    height: 100%;
+
+    width: $sidebar-w-min;
+    position: fixed;
+
+    overflow-x: hidden;
+}
+
+.nav:hover {
+    transition: 120ms;
+    width: $sidebar-w-max;
+}
